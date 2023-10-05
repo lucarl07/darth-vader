@@ -1,0 +1,71 @@
+body {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    transition: 0.2s linear;
+    max-width: 1020px;
+    border: 1px solid #707b85;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.cover {
+    transition: 0.2s linear;
+
+    /* Configurações da div: */
+    width: 1020px; height: 450px;
+
+    /* Configurações do fundo:*/
+    background-image: url("../img/capa.jpg");
+    background-size: 1020px 450px;
+    background-repeat: no-repeat;
+}
+.navbar {
+    transition: 0.2s linear;
+    background-color: #707b85;
+    width: 1020px; height: 108px;
+    text-align: center;
+}
+.navbar .item {
+    transition: 0.2s linear;
+    color: white; line-height: 108px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0px 40px;
+}
+
+.about-me {
+    max-width: 980px;
+    background-color: #474e55;
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+    .main-content {
+        transition: 0.2s linear;
+        max-width: 765px;
+    }
+    .cover {
+        transition: 0.2s linear;
+        width: 765px;
+        background-size: 765px 450px;
+    }
+    .navbar {
+        transition: 0.2s linear;
+        width: 765px;
+    }
+    .navbar .item {
+        transition: 0.2s linear;
+        font-size: 1.4rem;
+    }
+}
